@@ -1,0 +1,30 @@
+supabase:
+  url: "https://dxeatkkxnbkgvdidwvpc.supabase.co"
+  key: "sb_secret_KfYTUwbGWnxNOIx05nXpDw_xDsLewCg"
+
+gemini:
+  api_key: "AIzaSyDa8czAJCsE7gBeuVeNWrypfgP-itnbPrU"
+  model: "gemini-2.5-flash" 
+
+notifications:
+  email:
+    enabled: false
+    smtp_host: "smtp.gmail.com"
+    smtp_port: 587
+    use_tls: true
+    username: "your-email@gmail.com"
+    password: ""        # since you’re using SMTP_PASSWORD env, this can stay empty
+    from_address: "noreply@example.com"
+    to_addresses:
+      - "editor@example.com"
+  teams:
+    enabled: false
+    webhook_url: "https://your-organization.webhook.office.com/..."
+
+output:
+  base_dir: "outputs"
+  generate_docx: false
+
+llm:
+  temperature: 0.7
+  max_tokens: 2000
