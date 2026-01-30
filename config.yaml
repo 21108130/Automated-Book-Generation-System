@@ -1,9 +1,9 @@
 supabase:
-  url: "https://dxeatkkxnbkgvdidwvpc.supabase.co"
-  key: "sb_secret_KfYTUwbGWnxNOIx05nXpDw_xDsLewCg"
+  url: ""
+  key: ""
 
 gemini:
-  api_key: "AIzaSyDa8czAJCsE7gBeuVeNWrypfgP-itnbPrU"
+  api_key: ""
   model: "gemini-2.5-flash" 
 
 notifications:
